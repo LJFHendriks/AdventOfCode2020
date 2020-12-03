@@ -33,5 +33,5 @@ def day2part2(filename):
             passwords += 1
     return passwords
 
-print(f"The number of correct passwords in task 1 equals: {day2part1('2020_day2_input.txt')}")
-print(f"The number of correct passwords in task 2 equals: {day2part2('2020_day2_input.txt')}")
+print(f"The number of correct passwords in task 1 equals: {day2part1('input.txt')}")
+print(f"The number of correct passwords in task 2 equals: {day2part2('input.txt')}")

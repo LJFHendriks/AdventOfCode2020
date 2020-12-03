@@ -25,5 +25,5 @@ def day1part2(filename):
                 if i + j + k == 2020:
                     return i * j * k
 
-print(day1part1("2020_day1_input.txt"))
-print(day1part2("2020_day1_input.txt"))
+print(day1part1("input.txt"))
+print(day1part2("input.txt"))
