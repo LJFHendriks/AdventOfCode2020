@@ -1,3 +1,5 @@
+import numpy as np
+
 def day3part1(right,down):
     f = open("input.txt")
 
