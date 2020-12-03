@@ -24,4 +24,3 @@ def day3part2():
 
 print(f"The number of trees hit in task 1 equals: {day3part1(3,1)}")
 print(f"The multiple of the number of trees hit equals: {day3part2()}")
-print("test")
