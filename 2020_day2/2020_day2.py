@@ -4,6 +4,8 @@ def day2part1(filename):
     f = open(filename)
 
     str = f.read()
+    f.close()
+
     str = str.replace(": "," ")
     str = str.replace("-", " ")
 
@@ -21,6 +23,8 @@ def day2part2(filename):
     f = open(filename)
 
     str = f.read()
+    f.close()
+
     str = str.replace(": ", " ")
     str = str.replace("-", " ")
 

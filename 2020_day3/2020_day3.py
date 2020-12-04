@@ -2,7 +2,7 @@ def day3part1(right,down):
     f = open("input.txt")
 
     str = f.read()
-
+    f.close()
 
     arr = str.split()
 

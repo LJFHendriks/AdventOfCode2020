@@ -4,7 +4,7 @@ def day4part1():
     f = open("input.txt")
 
     str = f.read()
-
+    f.close()
 
     arr = str.split("\n\n")
 
@@ -26,10 +26,11 @@ def allData(pas):
     return False
 
 
-def day3part2():
+def day4part2():
     f = open("input.txt")
 
     str = f.read()
+    f.close()
 
     arr = str.split("\n\n")
 
@@ -107,4 +108,4 @@ def isValidPass(pas):
 
 
 print(f"The number of valid passwords in task 1 equals: {day4part1()}")
-print(f"The number of valid passwords in task 2 equals: {day3part2()}")
+print(f"The number of valid passwords in task 2 equals: {day4part2()}")
