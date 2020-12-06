@@ -15,7 +15,7 @@ def seat2rowcol(seat,rows,cols):
         col += key[seat[rows+i]]*2**(cols-1-i)
     return row, col
 
-def day4part1():
+def day5part1():
     f = open("input.txt")
 
     str = f.read()
@@ -34,7 +34,7 @@ def day4part1():
 
     return maxseatID
 
-def day4part2():
+def day5part2():
     f = open("input.txt")
 
     str = f.read()
@@ -56,5 +56,5 @@ def day4part2():
 
 
 
-print(f"The highest seatID equals: {day4part1()}")
-print(f"The seatID of my seat equals: {day4part2()}")
+print(f"The highest seatID equals: {day5part1()}")
+print(f"The seatID of my seat equals: {day5part2()}")
