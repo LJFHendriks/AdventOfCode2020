@@ -59,5 +59,5 @@ def day8part2():
     return 0
 
 
-print(f"The number of bags that can contain a shiny gold bag equals: {day8part1()}")
-print(f"The number of individual bags inside a shiny gold bag equals: {day8part2()}")
+print(f"The value of the accumulator before a loop equals: {day8part1()}")
+print(f"The value of the accumulator after fixing the code equals: {day8part2()}")
